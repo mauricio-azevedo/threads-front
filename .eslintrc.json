@@ -1,0 +1,91 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "linebreak-style": [
+      "warn",
+      "unix"
+    ],
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "semi": [
+      "warn",
+      "never"
+    ],
+    "no-extra-semi": [
+      "warn"
+    ],
+    "brace-style": [
+      "warn",
+      "allman"
+    ],
+    "prefer-const": [
+      "warn"
+    ],
+    "array-bracket-newline": [
+      "warn"
+    ],
+    "array-bracket-spacing": [
+      "warn",
+      "always"
+    ],
+    "array-element-newline": [
+      "warn",
+      {
+        "multiline": true
+      }
+    ],
+    "arrow-parens": [
+      "warn",
+      "as-needed"
+    ],
+    "arrow-spacing": [
+      "warn",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "block-spacing": [
+      "warn",
+      "always"
+    ],
+    "comma-dangle": [
+      "warn",
+      "never"
+    ],
+    "comma-comma-spacing": [
+      "warn",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "comma-style": [
+      "warn",
+      "last"
+    ],
+    "no-unreachable": "error",
+    "no-multi-spaces": "warn",
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1
+      }
+    ],
+    "no-trailing-spaces": "warn"
+  }
+}
