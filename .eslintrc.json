@@ -86,6 +86,8 @@
         "max": 1
       }
     ],
-    "no-trailing-spaces": "warn"
+    "no-trailing-spaces": "warn",
+    "no-tabs": "warn",
+    "indent": ["warn", 2]
   }
 }
